@@ -1,0 +1,15 @@
+{
+  "name": "slide-20230526kaigainotabi-1",
+  "description": "slide-2023-05-26-kaigainotabi1",
+  "version": "0.0.0",
+  "author": "OGATA Katsuhiro <ogwata@vivliostyle.org>",
+  "scripts": {
+    "build": "vivliostyle build",
+    "preview": "vivliostyle preview"
+  },
+  "dependencies": {
+    "@vivliostyle/cli": "latest"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}

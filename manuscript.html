@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Vivliostyleで旅行エッセイを共同編集／オンデマンド印刷</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Katsuhiro Ogata">
+    <link rel="stylesheet" href="themes/theme.css">
+  </head>
+  <body>
+    <section class="level1" aria-labelledby="vivliostyleで旅行エッセイをbr共同編集オンデマンド印刷">
+      <h1 class="cover" id="vivliostyleで旅行エッセイをbr共同編集オンデマンド印刷">Vivliostyleで旅行エッセイを<br>共同編集／オンデマンド印刷</h1>
+      <section class="level2" aria-labelledby="小形克宏">
+        <h2 id="小形克宏">小形克宏</h2>
+        <section class="level3" aria-labelledby="2023年5月28日brvivliostyle-ユーザーと開発者の集い2023春">
+          <h3 id="2023年5月28日brvivliostyle-ユーザーと開発者の集い2023春">2023年5月28日<br>Vivliostyle ユーザーと開発者の集い2023春</h3>
+        </section>
+      </section>
+    </section>
+    <section class="level1" aria-labelledby="agenda">
+      <h1 id="agenda">本日お伝えしたいこと</h1>
+      <ul>
+        <li>フォトアルバムをCSS組版で本にしました</li>
+        <li>そのリポジトリを公開しています</li>
+        <li>注目してほしいのはスタイルシート</li>
+        <li>OSによってページがずれる課題も明らかに</li>
+      </ul>
+    </section>
+    <section class="level1" aria-labelledby="元は海外旅行のフォトアルバム">
+      <h1 id="元は海外旅行のフォトアルバム">元は海外旅行のフォトアルバム</h1>
+      <div style="text-align:center">
+        <p>
+          <img src="images/IMG_8772.png" width="60%">
+        </p>
+      </div>
+    </section>
+    <section class="level1" aria-labelledby="css組版したpdfを印刷">
+      <h1 id="css組版したpdfを印刷">CSS組版したPDFを印刷</h1>
+      <div style="text-align:center">
+        <p>
+          <img src="images/IMG_8771.png" width="35%">
+        </p>
+      </div>
+    </section>
+    <section class="level1" aria-labelledby="仕様">
+      <h1 id="仕様">仕様</h1>
+      <ul>
+        <li>書名：海外旅行記 上巻（全3巻）</li>
+        <li>判型：A5判</li>
+        <li>製本：並製</li>
+        <li>頁数：284</li>
+        <li>印刷：欧文印刷㈱（オンデマンド印刷）
+          <ul>
+            <li>参照→<a href="https://vivliostyle.org/ja/blog/2022/09/07/service-to-print-pdfs/">Vivliostyle Pubで作成したPDFファイルを印刷するサービスが開始</a>（なお、PDF出力はVivliostyle CLI）</li>
+          </ul>
+        </li>
+        <li>内容：村上代表のご両親のフォトアルバムをデジタル化したもの</li>
+      </ul>
+    </section>
+    <section class="level1" aria-labelledby="作業分担とそれぞれの居住地">
+      <h1 id="作業分担とそれぞれの居住地">作業分担とそれぞれの居住地</h1>
+      <ul>
+        <li>CSS作成：村上代表（さいたま市）</li>
+        <li>編集制作：小形（横須賀市）</li>
+        <li>校正：@まや（村上姉、山形市）</li>
+        <li>著者：（仙台市）
+          <ul>
+            <li>→クラウド（GitHub／Slack／Dropboxなど）による共同編集が必須</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section class="level1" aria-labelledby="制作の経緯">
+      <h1 id="制作の経緯">制作の経緯</h1>
+      <ul>
+        <li>2020-10-30：最初のcommit</li>
+        <li>2021-04-10 ：イベントにて小形が<a href="https://docs.google.com/presentation/d/1YB46WOHMR7TWjqjgnnigBlYXCM8cDost84H9kNW1Jtc/edit#slide=id.p">「Create Bookを使った旅行エッセイ本の制作」</a>として途中経過を報告</li>
+        <li>2022-04-13：欧文印刷からの申し出によりテスト印刷</li>
+        <li>2022-10-：@まやが参加し作業が加速</li>
+        <li>2023-02-24：校了、欧文印刷入稿</li>
+        <li>2023-03-16：完成</li>
+        <li>2023-05-23：リポジトリを<a href="https://github.com/MurakamiShinyu/kaigainotabi1">kaigainotabi1</a>として公開</li>
+      </ul>
+    </section>
+    <section class="level1" aria-labelledby="制作フロー表紙以外">
+      <h1 id="制作フロー表紙以外">制作フロー（表紙以外）</h1>
+      <ol>
+        <li>カラー写真をスキャン</li>
+        <li>Wordファイルからテキスト変換</li>
+        <li>スタイルシートを設計</li>
+        <li>テキストデータをMarkdownに変換</li>
+        <li>プレビューを見ながら写真を配置</li>
+        <li>PDFを出力し著者へ（校正出し）</li>
+        <li>データに著者校を反映（4校まで繰り返す）</li>
+        <li>PDFを出力し印刷所へ入稿</li>
+      </ol>
+    </section>
+    <section class="level1" aria-labelledby="themecssの変遷">
+      <h1 id="themecssの変遷">theme.cssの変遷①</h1>
+      <ul>
+        <li>2020年秋以降のVivliostyle開発履歴そのもの
+          <ul>
+            <li>2020-10-31版（82行）と2023-5-25版（460行）のDiff画面→</li>
+            <li>GitHub DesktopのHistory画面→</li>
+          </ul>
+        </li>
+        <li>2020-10-31版
+          <ul>
+            <li><a href="https://www.w3.org/TR/css-page-3/">CSS Paged Media Module Level 3</a>によるページ分割</li>
+            <li><a href="https://drafts.csswg.org/css-gcpm-4/">CSS Generated Content for Paged Media</a>による柱</li>
+            <li><a href="https://www.w3.org/TR/css-page-floats-3/">CSS Page Floatsによる画像配置</a></li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section class="level1" aria-labelledby="themecssの変遷-1">
+      <h1 id="themecssの変遷-1">theme.cssの変遷②</h1>
+      <ul>
+        <li>2020-11-05版
+          <ul>
+            <li>画像がページに1つ入るクラスの新設</li>
+            <li>画像がページに2つ入るクラスの新設</li>
+          </ul>
+        </li>
+        <li>
+          2020-11-13版
+          -太ゴシックのクラスを新設
+        </li>
+        <li>2020-12-09版
+          <ul>
+            <li>Sassに対応</li>
+          </ul>
+        </li>
+        <li>2020-12-24版
+          <ul>
+            <li>節と項にもIDを付加するように</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section class="level1" aria-labelledby="themecssの変遷-2">
+      <h1 id="themecssの変遷-2">theme.cssの変遷③</h1>
+      <div style="font-size: 83%;">
+        <ul>
+          <li>2020-12-25版
+            <ul>
+              <li>行頭をインデントしないクラス</li>
+              <li>ページ直後が偶数の場合、白ページを挿入する（改丁）クラス</li>
+            </ul>
+          </li>
+          <li>2020-12-26版
+            <ul>
+              <li>ページの直前で改ページ、直後で改ページするクラス</li>
+              <li>画像がbottomにフロートするクラス</li>
+              <li>画像がtopにフロート、bottomにフロートするクラス</li>
+            </ul>
+          </li>
+          <li>2020-12-29版
+            <ul>
+              <li>YakuCaltフォントによる重複約物の詰め処理を追加</li>
+              <li>Named stringsで柱を表示するように変更</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="level1" aria-labelledby="themecssの変遷-3">
+      <h1 id="themecssの変遷-3">theme.cssの変遷④</h1>
+      <div style="font-size: 90%;">
+        <ul>
+          <li>2021-03-13版
+            <ul>
+              <li>ページフォーマットの単位をミリからpxに変更</li>
+            </ul>
+          </li>
+          <li>2021-03-13版
+            <ul>
+              <li>見出しに字間詰め <code>font-feature-settings: "palt"</code>を指定</li>
+            </ul>
+          </li>
+          <li>2021-03-30版
+            <ul>
+              <li>直前で改ページし、1つのphotoをtopに配置し、直後に改ページするクラスを修正</li>
+            </ul>
+          </li>
+          <li>2021-07-20版
+            <ul>
+              <li>文字間をわずかに詰めるクラス、開けるクラスを新設</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="level1" aria-labelledby="themecssの変遷-4">
+      <h1 id="themecssの変遷-4">theme.cssの変遷⑤</h1>
+      <div style="font-size: 75%;">
+        <ul>
+          <li>2021-12-09版
+            <ul>
+              <li>和欧間スペースに初めて対応
+                <ul>
+                  <li>Text Module Level 4 <code>text-spacing</code></li>
+                </ul>
+              </li>
+              <li>重複約物の詰め処理に初めて対応
+                <ul>
+                  <li>CSS Text Module Level 3に対応<code>hanging-punctuation</code></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>2020-01-14版
+            <ul>
+              <li>ページに画像2つを横に配置するクラスを新設</li>
+            </ul>
+          </li>
+          <li>2022-04-07版
+            <ul>
+              <li>テスト印刷用にWebフォントを適用</li>
+            </ul>
+          </li>
+          <li>2022-06-14版
+            <ul>
+              <li>Webフォント適用前に戻す</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="level1" aria-labelledby="themecssの変遷-5">
+      <h1 id="themecssの変遷-5">theme.cssの変遷⑥</h1>
+      <div style="font-size: 80%;">
+        <ul>
+          <li>2022-07-24版
+            <ul>
+              <li>Sass使用を廃止してCSS変数に移行</li>
+            </ul>
+          </li>
+          <li>2022-09-26版
+            <ul>
+              <li>ページの天地左右中央に画像を配置するクラスを新設（地図用）</li>
+            </ul>
+          </li>
+          <li>2022-11-21版
+            <ul>
+              <li>Vivliostyle Pub用に本文フォントをNoto Serif CJKに変更</li>
+            </ul>
+          </li>
+          <li>2022-12-16版
+            <ul>
+              <li>nthページを使って、特定のページにノンブルを入れないクラスを新設</li>
+            </ul>
+          </li>
+          <li>2023-02-08版
+            <ul>
+              <li>奥付用のクラスを新設</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="level1" aria-labelledby="浮上した課題">
+      <h1 id="浮上した課題">浮上した課題</h1>
+      <ul>
+        <li>組版エンジン（Vivliostyle.js）とフォントは同じなのに、OSが異なると組版結果が違ってしまう
+          <ul>
+            <li><a href="https://github.com/vivliostyle/vivliostyle.js/issues/1098">Same fonts, but different output by OS #1098 (Vivliostyle.js)</a></li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>

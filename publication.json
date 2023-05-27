@@ -1,0 +1,20 @@
+{
+  "@context": [
+    "https://schema.org",
+    "https://www.w3.org/ns/pub-context"
+  ],
+  "type": "Book",
+  "conformsTo": "https://github.com/vivliostyle/vivliostyle-cli",
+  "author": "OGATA Katsuhiro <ogwata@vivliostyle.org>",
+  "inLanguage": "ja",
+  "dateModified": "2023-05-27T14:15:50.299Z",
+  "name": "slide-2023-05-26-kaigainotabi1",
+  "readingOrder": [
+    {
+      "url": "manuscript.html",
+      "name": "Vivliostyle、もう一つのブルーオーシャン"
+    }
+  ],
+  "resources": [],
+  "links": []
+}

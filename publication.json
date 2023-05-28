@@ -7,12 +7,12 @@
   "conformsTo": "https://github.com/vivliostyle/vivliostyle-cli",
   "author": "OGATA Katsuhiro <ogwata@vivliostyle.org>",
   "inLanguage": "ja",
-  "dateModified": "2023-05-27T14:49:33.252Z",
+  "dateModified": "2023-05-28T01:56:59.948Z",
   "name": "slide-2023-05-26-kaigainotabi1",
   "readingOrder": [
     {
       "url": "manuscript.html",
-      "name": "Vivliostyle、もう一つのブルーオーシャン"
+      "name": "Vivliostyleで旅行エッセイを共同編集／オンデマンド印刷"
     }
   ],
   "resources": [],

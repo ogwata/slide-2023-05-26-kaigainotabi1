@@ -104,7 +104,7 @@
             <li>GitHub DesktopのHistory画面→</li>
           </ul>
         </li>
-        <li>2020-10-31版
+        <li>2020-10-31
           <ul>
             <li><a href="https://www.w3.org/TR/css-page-3/">CSS Paged Media Module Level 3</a>によるページ分割</li>
             <li><a href="https://drafts.csswg.org/css-gcpm-4/">CSS Generated Content for Paged Media</a>による柱</li>
@@ -116,22 +116,22 @@
     <section class="level1" aria-labelledby="themecssの変遷-1">
       <h1 id="themecssの変遷-1">theme.cssの変遷②</h1>
       <ul>
-        <li>2020-11-05版
+        <li>2020-11-05
           <ul>
             <li>画像がページに1つ入るクラスの新設</li>
             <li>画像がページに2つ入るクラスの新設</li>
           </ul>
         </li>
         <li>
-          2020-11-13版
+          2020-11-13
           -太ゴシックのクラスを新設
         </li>
-        <li>2020-12-09版
+        <li>2020-12-09
           <ul>
             <li>Sassに対応</li>
           </ul>
         </li>
-        <li>2020-12-24版
+        <li>2020-12-24
           <ul>
             <li>節と項にもIDを付加するように</li>
           </ul>
@@ -142,20 +142,20 @@
       <h1 id="themecssの変遷-2">theme.cssの変遷③</h1>
       <div style="font-size: 83%;">
         <ul>
-          <li>2020-12-25版
+          <li>2020-12-25
             <ul>
               <li>行頭をインデントしないクラス</li>
               <li>ページ直後が偶数の場合、白ページを挿入する（改丁）クラス</li>
             </ul>
           </li>
-          <li>2020-12-26版
+          <li>2020-12-26
             <ul>
               <li>ページの直前で改ページ、直後で改ページするクラス</li>
               <li>画像がbottomにフロートするクラス</li>
               <li>画像がtopにフロート、bottomにフロートするクラス</li>
             </ul>
           </li>
-          <li>2020-12-29版
+          <li>2020-12-29
             <ul>
               <li>YakuCaltフォントによる重複約物の詰め処理を追加</li>
               <li>Named stringsで柱を表示するように変更</li>
@@ -168,22 +168,22 @@
       <h1 id="themecssの変遷-3">theme.cssの変遷④</h1>
       <div style="font-size: 90%;">
         <ul>
-          <li>2021-03-13版
+          <li>2021-03-13
             <ul>
               <li>ページフォーマットの単位をミリからpxに変更</li>
             </ul>
           </li>
-          <li>2021-03-13版
+          <li>2021-03-13
             <ul>
               <li>見出しに字間詰め <code>font-feature-settings: "palt"</code>を指定</li>
             </ul>
           </li>
-          <li>2021-03-30版
+          <li>2021-03-30
             <ul>
               <li>直前で改ページし、1つのphotoをtopに配置し、直後に改ページするクラスを修正</li>
             </ul>
           </li>
-          <li>2021-07-20版
+          <li>2021-07-20
             <ul>
               <li>文字間をわずかに詰めるクラス、開けるクラスを新設</li>
             </ul>
@@ -193,33 +193,34 @@
     </section>
     <section class="level1" aria-labelledby="themecssの変遷-4">
       <h1 id="themecssの変遷-4">theme.cssの変遷⑤</h1>
-      <div style="font-size: 75%;">
+      <div style="font-size: 69%;">
         <ul>
-          <li>2021-12-09版
+          <li>2021-12-09
             <ul>
-              <li>和欧間スペースに初めて対応
+              <li>和欧間スペースと重複約物の詰め処理に対応
                 <ul>
                   <li>Text Module Level 4 <code>text-spacing</code></li>
                 </ul>
               </li>
-              <li>重複約物の詰め処理に初めて対応
+              <li>YakuCaltフォントの指定を削除</li>
+              <li>句読点のぶら下げに対応
                 <ul>
                   <li>CSS Text Module Level 3に対応<code>hanging-punctuation</code></li>
                 </ul>
               </li>
             </ul>
           </li>
-          <li>2020-01-14版
+          <li>2020-01-14
             <ul>
               <li>ページに画像2つを横に配置するクラスを新設</li>
             </ul>
           </li>
-          <li>2022-04-07版
+          <li>2022-04-07
             <ul>
               <li>テスト印刷用にWebフォントを適用</li>
             </ul>
           </li>
-          <li>2022-06-14版
+          <li>2022-06-14
             <ul>
               <li>Webフォント適用前に戻す</li>
             </ul>
@@ -268,6 +269,21 @@
           </ul>
         </li>
       </ul>
+    </section>
+    <section class="level1" aria-labelledby="issue-1098の影響">
+      <h1 id="issue-1098の影響">issue #1098の影響</h1>
+      <ul>
+        <li>Vivliostyleのプロダクトは層状に構成されている
+          <ul>
+            <li>→Vivliostyle.jsのバグは、全プロダクトに影響</li>
+          </ul>
+        </li>
+      </ul>
+      <div style="text-align:center">
+        <p>
+          <img src="images/Layered-Vivliostyle-products.png" width="65%">
+        </p>
+      </div>
     </section>
   </body>
 </html>

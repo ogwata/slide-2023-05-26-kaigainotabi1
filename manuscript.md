@@ -98,7 +98,7 @@ author: Katsuhiro Ogata
 
 # theme.cssの変遷③
 
-<div style="font-size: 83%;">
+<div style="font-size: 81%;">
 
 - 2020-12-25
     - 行頭をインデントしないクラス

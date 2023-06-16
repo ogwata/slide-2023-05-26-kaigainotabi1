@@ -1,14 +1,8 @@
-# Slide 2023 05 26 Kaigainotabi1
+# Vivliostyleで旅行エッセイを共同編集／オンデマンド印刷 (2022-05-28)
 
-Vivliostyleで旅行エッセイを共同編集／オンデマンド印刷
+**View with Vivliostyle Viewer:**
+- <https://vivliostyle.org/viewer/#src=https://github.com/ogwata/slide-2023-05-26-kaigainotabi1/blob/main/manuscript.html>
 
-> created by [create-book](https://github.com/vivliostyle/create-book).
+**HTML:** <https://ogwata.github.io/slide-2023-05-26-kaigainotabi1/manuscript.html>
 
-## References
-
-- VFM <https://vivliostyle.github.io/vfm/#/vfm>
-- Vivliostyle CLI <https://github.com/vivliostyle/vivliostyle-cli#readme>
-- Vivliostyle Themes <https://github.com/vivliostyle/themes#readme>
-- Awesome Vivliostyle <https://github.com/vivliostyle/awesome-vivliostyle#readme>
-- Vivliostyle (GitHub) <https://github.com/vivliostyle>
-- Vivliostyle <https://vivliostyle.org>
+**Event:** [CSS組版 Vivliostyle ユーザーと開発者の集い 2023春](https://vivliostyle.connpass.com/event/280760/)
